@@ -3,67 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chakhrit</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
-        .container {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
-        .project {
-            background-color: #fff;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-            padding: 20px;
-            margin-bottom: 20px;
-        }
-        .project h2 {
-            margin-top: 0;
-        }
-        .project p {
-            margin-bottom: 0;
-        }
-    </style>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS file for styling -->
 </head>
 <body>
 
 <header>
-    <h1>Chakhrit</h1>
+    <div class="container">
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 
-<div class="container">
-
-    <div class="project">
-        <h2>Project 1</h2>
-        <p>Description of Project 1</p>
-        <p><a href="#">View Project</a></p>
+<section id="home">
+    <div class="container">
+        <h2>Welcome to My Portfolio</h2>
+        <p>This is a showcase of my work and skills.</p>
     </div>
+</section>
 
-    <div class="project">
-        <h2>Project 2</h2>
-        <p>Description of Project 2</p>
-        <p><a href="#">View Project</a></p>
+<section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Add information about yourself here.</p>
     </div>
+</section>
 
-    <div class="project">
-        <h2>Project 3</h2>
-        <p>Description of Project 3</p>
-        <p><a href="#">View Project</a></p>
+<section id="projects">
+    <div class="container">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1</h3>
+            <p>Description of Project 1</p>
+            <a href="#">View Project</a>
+        </div>
+        <div class="project">
+            <h3>Project 2</h3>
+            <p>Description of Project 2</p>
+            <a href="#">View Project</a>
+        </div>
+        <!-- Add more projects as needed -->
     </div>
+</section>
 
-</div>
+<section id="contact">
+    <div class="container">
+        <h2>Contact Me</h2>
+        <p>You can reach me at email@example.com</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2024 My Portfolio</p>
+    </div>
+</footer>
 
 </body>
 </html>
